@@ -14,7 +14,7 @@ Hercules DJControl Inpulse 500
 -  `Manufacturer’s support and downloads page <https://support.hercules.com/en/product/djcontrolinpulse500-en//>`__
 -  `Forum thread <https://mixxx.discourse.group/t/hercules-djcontrol-inpulse-500/19739/101/>`__
 
-.. versionadded:: 2.6.0
+.. versionadded:: 2.5.1
 
 Compatibility
 -------------
@@ -63,7 +63,7 @@ Control                                                          Function
 ===============================================================  ==========================================
 :hwlabel:`SYNC` button                                           Toggle :ref:`Sync Lock <sync-lock>`.
 :hwlabel:`SHIFT` + :hwlabel:`SYNC` button                        Match key to currently playing track.
-:hwlabel:`CUE` button                                            Specifies, plays or recalls temporary cue point.
+:hwlabel:`CUE` button                                            CUE button :ref:`Using Cue Mode <using-cue-modes>`.
 :hwlabel:`SHIFT` + :hwlabel:`CUE` button                         Return to the beginning of the track.
 :hwlabel:`Play` button                                           Play/Pause the current track.
 :hwlabel:`SHIFT` + :hwlabel:`Play` button                        Cue Stutter.
@@ -88,28 +88,28 @@ Browser
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`BROWSER` encoder (turn)                                Move up/down list.
-:hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (turn)             Move left/right (fold/unfold) list.
-:hwlabel:`BROWSER` encoder (press)                               Switch focus between list and file view.
-:hwlabel:`SHIFT` + Encoder (press)                               Maximize/Minimize library view.
+:hwlabel:`BROWSER` encoder (turn encoder)                        Move up/down currently focused list or search history
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (turn encoder)     Move left/right (fold/unfold) list.
+:hwlabel:`BROWSER` encoder (press)                               Switch focus between list, search and file view.
+:hwlabel:`SHIFT` + :hwlabel:`BROWSER` encoder (press)            Maximize/Minimize library view.
 :hwlabel:`ASSISTANT` button                                      Toggle AutoDJ (be sure a playlist was created for AutoDJ before activating this function).
 ===============================================================  ==========================================
 
-FX
-~~
+Deck Channels
+~~~~~~~~~~~~~
 
 .. note::
-   This mapping turns the FX button into channel selection,
+   This mapping turns the FX buttons into channel selection,
    relegating FX to pad mode 7. The LED indicates which
    channel is active on the corresponding deck
 
 ===============================================================  ==========================================
 Control                                                          Function
 ===============================================================  ==========================================
-:hwlabel:`FX1` pad                                               Choose channel 1 on left deck.
-:hwlabel:`FX2` pad                                               Choose channel 2 on right deck.
-:hwlabel:`FX3` pad                                               Choose channel 3 on left deck.
-:hwlabel:`FX4` pad                                               Choose channel 4 on right deck.
+:hwlabel:`FX1` pad                                               Choose deck 1 on left deck.
+:hwlabel:`FX2` pad                                               Choose deck 2 on right deck.
+:hwlabel:`FX3` pad                                               Choose deck 3 on left deck.
+:hwlabel:`FX4` pad                                               Choose deck 4 on right deck.
 ===============================================================  ==========================================
 
 Performance Pads
